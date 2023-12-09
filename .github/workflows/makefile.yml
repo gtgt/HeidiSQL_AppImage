@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Load fuse
-      run: modprobe fuse
+      run: modprobe fuse && apt install libfuse2
       
     - uses: actions/checkout@v3
 
