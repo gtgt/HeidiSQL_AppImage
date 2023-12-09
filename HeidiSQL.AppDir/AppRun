@@ -4,7 +4,7 @@ export PATH="${HERE}"/usr/bin/:"${PATH}"
 export LD_LIBRARY_PATH="$HERE"/usr/lib:$LD_LIBRARY_PATH
 export XDG_DATA_DIRS="${HERE}"/usr/share/:"${XDG_DATA_DIRS}"
 export GSETTINGS_SCHEMA_DIR="${HERE}"/usr/share/glib-2.0/schemas/:"${GSETTINGS_SCHEMA_DIR}"
-export WINEDEBUG=-all
+#export WINEDEBUG=-all
 
 RO_DATADIR="$HERE/wineprefix/"
 RW_DATADIR="$HOME/.HeidiSql"
@@ -23,7 +23,7 @@ function finish {
 trap finish EXIT
 
 export WINEPREFIX="$MOUNTDIR"
-wine "c:\\Program Files\\HeidiSQL\\heidisql.exe" "$@"
+$HERE/wine/AppRun "c:\\Program Files\\HeidiSQL\\heidisql.exe" "$@"
 while pgrep "heidisql.exe" > /dev/null ; do sleep 5 ; echo "Waiting A" ; done
 while pgrep "heidisql.exe" > /dev/null ; do sleep 5 ; echo "Waiting B" ; done
 

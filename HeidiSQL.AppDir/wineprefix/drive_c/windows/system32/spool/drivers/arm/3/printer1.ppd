@@ -1,0 +1,130 @@
+*PPD-Adobe: "4.3"
+*FormatVersion: "4.3"
+*FileVersion: "1.28.15"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*FileSystem: False
+*PCFileName: "drvless.ppd"
+*Manufacturer: "Samsung"
+*ModelName: "Samsung M2070 Series"
+*Product: "(Samsung M2070 Series)"
+*NickName: "Samsung M2070 Series, driverless, cups-filters 1.28.15"
+*ShortNickName: "Samsung M2070 Series"
+*DefaultOutputOrder: Normal
+*ColorDevice: False
+*cupsVersion: 2.4
+*cupsSNMPSupplies: False
+*cupsLanguages: "en"
+*APSupplies: "http://192.168.1.7/sws/index.html?link=/sws/app/settings/network/AirPrint/AirPrint.html"
+*cupsJobPassword: ""
+*cupsFilter2: "image/urf image/urf 0 -"
+*cupsManualCopies: True
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: A4
+*PageSize 4x6/4 x 6″: "<</PageSize[288 432]>>setpagedevice"
+*PageSize 8.5x13.5: "<</PageSize[612 972]>>setpagedevice"
+*PageSize A4/A4: "<</PageSize[595.275590551181 841.889763779528]>>setpagedevice"
+*PageSize A5/A5: "<</PageSize[419.527559055118 595.275590551181]>>setpagedevice"
+*PageSize B5/JIS B5: "<</PageSize[515.905511811024 728.503937007874]>>setpagedevice"
+*PageSize Env10/Envelope #10: "<</PageSize[296.985826771654 684]>>setpagedevice"
+*PageSize EnvC5/CEnvelope 5: "<</PageSize[459.212598425197 649.133858267717]>>setpagedevice"
+*PageSize EnvDL/Envelope DL: "<</PageSize[311.811023622047 623.622047244094]>>setpagedevice"
+*PageSize EnvMonarch/Envelope Monarch: "<</PageSize[278.985826771654 540]>>setpagedevice"
+*PageSize Executive/Executive: "<</PageSize[522 756]>>setpagedevice"
+*PageSize FanFoldGermanLegal/Foolscap: "<</PageSize[612 936]>>setpagedevice"
+*PageSize ISOB5/Envelope B5: "<</PageSize[498.897637795276 708.661417322835]>>setpagedevice"
+*PageSize Legal/US Legal: "<</PageSize[612 1008]>>setpagedevice"
+*PageSize Letter/US Letter: "<</PageSize[612 792]>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: A4
+*PageRegion 4x6/4 x 6″: "<</PageSize[288 432]>>setpagedevice"
+*PageRegion 8.5x13.5: "<</PageSize[612 972]>>setpagedevice"
+*PageRegion A4/A4: "<</PageSize[595.275590551181 841.889763779528]>>setpagedevice"
+*PageRegion A5/A5: "<</PageSize[419.527559055118 595.275590551181]>>setpagedevice"
+*PageRegion B5/JIS B5: "<</PageSize[515.905511811024 728.503937007874]>>setpagedevice"
+*PageRegion Env10/Envelope #10: "<</PageSize[296.985826771654 684]>>setpagedevice"
+*PageRegion EnvC5/CEnvelope 5: "<</PageSize[459.212598425197 649.133858267717]>>setpagedevice"
+*PageRegion EnvDL/Envelope DL: "<</PageSize[311.811023622047 623.622047244094]>>setpagedevice"
+*PageRegion EnvMonarch/Envelope Monarch: "<</PageSize[278.985826771654 540]>>setpagedevice"
+*PageRegion Executive/Executive: "<</PageSize[522 756]>>setpagedevice"
+*PageRegion FanFoldGermanLegal/Foolscap: "<</PageSize[612 936]>>setpagedevice"
+*PageRegion ISOB5/Envelope B5: "<</PageSize[498.897637795276 708.661417322835]>>setpagedevice"
+*PageRegion Legal/US Legal: "<</PageSize[612 1008]>>setpagedevice"
+*PageRegion Letter/US Letter: "<</PageSize[612 792]>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: A4
+*DefaultPaperDimension: A4
+*ImageableArea 4x6: "12.472440944882 12.472440944882 275.527559055118 419.527559055118"
+*PaperDimension 4x6: "288 432"
+*ImageableArea 8.5x13.5: "12.472440944882 12.472440944882 599.527559055118 959.527559055118"
+*PaperDimension 8.5x13.5: "612 972"
+*ImageableArea A4: "12.472440944882 12.472440944882 582.803149606299 829.417322834646"
+*PaperDimension A4: "595.275590551181 841.889763779528"
+*ImageableArea A5: "12.472440944882 12.472440944882 407.055118110236 582.803149606299"
+*PaperDimension A5: "419.527559055118 595.275590551181"
+*ImageableArea B5: "12.472440944882 12.472440944882 503.433070866142 716.031496062992"
+*PaperDimension B5: "515.905511811024 728.503937007874"
+*ImageableArea Env10: "12.472440944882 12.472440944882 284.513385826772 671.527559055118"
+*PaperDimension Env10: "296.985826771654 684"
+*ImageableArea EnvC5: "12.472440944882 12.472440944882 446.740157480315 636.661417322835"
+*PaperDimension EnvC5: "459.212598425197 649.133858267717"
+*ImageableArea EnvDL: "12.472440944882 12.472440944882 299.338582677165 611.149606299213"
+*PaperDimension EnvDL: "311.811023622047 623.622047244094"
+*ImageableArea EnvMonarch: "12.472440944882 12.472440944882 266.513385826772 527.527559055118"
+*PaperDimension EnvMonarch: "278.985826771654 540"
+*ImageableArea Executive: "12.472440944882 12.472440944882 509.527559055118 743.527559055118"
+*PaperDimension Executive: "522 756"
+*ImageableArea FanFoldGermanLegal: "12.472440944882 12.472440944882 599.527559055118 923.527559055118"
+*PaperDimension FanFoldGermanLegal: "612 936"
+*ImageableArea ISOB5: "12.472440944882 12.472440944882 486.425196850394 696.188976377953"
+*PaperDimension ISOB5: "498.897637795276 708.661417322835"
+*ImageableArea Legal: "12.472440944882 12.472440944882 599.527559055118 995.527559055118"
+*PaperDimension Legal: "612 1008"
+*ImageableArea Letter: "12.472440944882 12.472440944882 599.527559055118 779.527559055118"
+*PaperDimension Letter: "612 792"
+*HWMargins: "12.472440944882 12.472440944882 12.472440944882 12.472440944882"
+*ParamCustomPageSize Width: 1 points 215.433070866142 612.283464566929
+*ParamCustomPageSize Height: 2 points 360 1009.133858267717
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 3
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*OpenUI *MediaType/Media Type: PickOne
+*OrderDependency: 10 AnySetup *MediaType
+*DefaultMediaType: Stationery
+*MediaType Stationery/Stationery: "<</MediaType(Stationery)>>setpagedevice"
+*MediaType StationeryHeavyweight/Heavyweight Paper: "<</MediaType(StationeryHeavyweight)>>setpagedevice"
+*MediaType StationeryLightweight/Lightweight Paper: "<</MediaType(StationeryLightweight)>>setpagedevice"
+*MediaType StationeryBond: "<</MediaType(StationeryBond)>>setpagedevice"
+*MediaType StationeryColored: "<</MediaType(StationeryColored)>>setpagedevice"
+*MediaType Cardstock/Cardstock: "<</MediaType(Cardstock)>>setpagedevice"
+*MediaType Labels/Labels: "<</MediaType(Labels)>>setpagedevice"
+*MediaType Envelope/Envelope: "<</MediaType(Envelope)>>setpagedevice"
+*MediaType Recycled: "<</MediaType(Recycled)>>setpagedevice"
+*MediaType Preprinted: "<</MediaType(Preprinted)>>setpagedevice"
+*MediaType Cotton: "<</MediaType(Cotton)>>setpagedevice"
+*MediaType Archive: "<</MediaType(Archive)>>setpagedevice"
+*CloseUI: *MediaType
+*% ColorModel from urf-supported
+*OpenUI *ColorModel/Print Color Mode: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*ColorModel Gray/Monochrome: "<</cupsColorSpace 18/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*DefaultColorModel: Gray
+*CloseUI: *ColorModel
+*OpenUI *OutputBin/Output Tray: PickOne
+*OrderDependency: 10 AnySetup *OutputBin
+*DefaultOutputBin: Top
+*OutputBin Top/Top: ""
+*CloseUI: *OutputBin
+*DefaultResolution: 600dpi
+*OpenUI *cupsPrintQuality/Print Quality: PickOne
+*OrderDependency: 10 AnySetup *cupsPrintQuality
+*DefaultcupsPrintQuality: Normal
+*cupsPrintQuality Normal/Normal: "<</HWResolution[600 600]>>setpagedevice"
+*CloseUI: *cupsPrintQuality
+*cupsFilter2: "application/vnd.cups-pdf application/pdf 0 -"
