@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Load fuse
+      run: modprobe fuse
+      
     - uses: actions/checkout@v3
 
     - name: Build
